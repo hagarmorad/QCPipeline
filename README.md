@@ -3,6 +3,7 @@
 * In order to install all dependencies using conda, run: \
     `conda env create -f <your/QCPipeline/path>/env/QCPipeline.yml`
 ### Usage:
+`conda activate QCPipeline`
 `python QC.py [-h] [-t [CSV] | --template | -r] [-i WD] [-o OUTPUT_PATH]`
 #### -r | --reports : QC Reports
 Produces fastqc and multiqc reports for all fastq files. \
